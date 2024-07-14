@@ -1,0 +1,32 @@
+.title_category {
+  text-transform: uppercase;
+  width: max-content;
+  color: #fff;
+  font-size: 32px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  line-height: 37.5px;
+  text-align: center;
+  border-radius: 15px;
+  padding: 1.3rem;
+  min-width: 432px;
+}
+
+/* Tablet Responsive */
+
+@media (max-width: 768px) {
+  .title_category {
+    margin: 0 auto;
+  }
+}
+
+/* Mobile Responsive */
+
+@media (max-width: 570px) {
+  .title_category {
+    margin: 0;
+    font-size: 24px;
+    line-height: 28.13px;
+    min-width: 286px;
+  }
+}

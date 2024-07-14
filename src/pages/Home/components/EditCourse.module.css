@@ -1,0 +1,29 @@
+.editCourse {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.title {
+  color: var(--blue-color);
+  font-family: "Roboto", monospace;
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 70.31px;
+  text-align: left;
+}
+
+.form_buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* Mobile Responsive */
+
+@media (max-width: 570px) {
+  .form_buttons {
+    flex-direction: column;
+  }
+}

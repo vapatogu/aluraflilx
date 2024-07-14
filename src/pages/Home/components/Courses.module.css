@@ -1,0 +1,7 @@
+/* Tablet Responsive */
+
+@media (max-width: 768px) {
+  .course_card {
+    margin-top: 3rem;
+  }
+}

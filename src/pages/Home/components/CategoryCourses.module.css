@@ -1,0 +1,34 @@
+.category_course {
+  color: #fff;
+  padding: 1rem 6rem;
+}
+
+.category_courses_section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.no_courses_title {
+  font-style: italic;
+  font-size: 18px;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+/* Tablet Responsive */
+
+@media (max-width: 768px) {
+  .category_course {
+    padding: 2.5rem;
+  }
+
+  .category_courses_section {
+    overflow-x: auto;
+    justify-content: start;
+  }
+    
+}

@@ -1,0 +1,45 @@
+/* Modal.module.css */
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.modalOverlay.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.modalContent {
+  background: var(--background-modal);
+  border: 5px solid var(--blue-light-color);
+  border-radius: 10px;
+  max-width: 500px;
+  max-height: 90%;
+  padding: 20px;
+  width: 100%;
+  transform: scale(0.7);
+  transition: transform 0.3s ease;
+  overflow-y: auto;
+}
+
+.modalContent.active {
+  transform: scale(1);
+}
+
+/* Mobile Responsive */
+
+@media (max-width: 570px) {
+  .modalContent {
+    max-width: 80%;
+  }
+}

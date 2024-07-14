@@ -1,0 +1,26 @@
+.footer {
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2.5rem;
+  box-shadow: 0px 5px 29px 0px #2271d1b2;
+  border-top: 4px solid #2271d1;
+  margin-top: 2rem;
+}
+
+.elements_footer {
+  display: none;
+}
+
+/* Mobile Responsive */
+
+@media (max-width: 570px) {
+  .logo_footer {
+    display: none;
+  }
+
+  .elements_footer {
+    display: block;
+  }
+}

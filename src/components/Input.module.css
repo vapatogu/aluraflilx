@@ -1,0 +1,22 @@
+.input {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  color: #fff;
+}
+
+.input_label {
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+}
+
+.input_error_message {
+  border: 3px solid #e53935;
+}
+
+.input_error_message::placeholder {
+  color: #e53935;
+}

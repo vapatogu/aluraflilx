@@ -1,0 +1,6 @@
+.navigation_elements {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  list-style: none;
+}
